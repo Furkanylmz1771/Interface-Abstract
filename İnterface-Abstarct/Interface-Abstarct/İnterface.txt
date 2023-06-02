@@ -1,0 +1,8 @@
+Interface, içerisinde sadece kendisinden türeyecek olan sınıfların içini dolduracağı metod tanımlarının bulunduğu ve soyutlama yapmamıza olanak sağlayan bir yapıdır. Interface’leri tanımlarken interface keywordünü kullanırız. Tanımladığımız yapının interface olduğunu belirtmek için isminin önüne I harfini getirmek bir best-practice olacaktır.
+
+interface ILog
+{
+    void LogEkle(string kayit);
+}
+
+Bu interface’ten türeyen tüm sınıflar LogEkle(string kayit) metodunu implement etmek zorundadır. Interface hakkında internette bir arama yaptığınızda genellikle kendisini inherit alan sınıflar için bir kontrat olduğundan bahsedilir. Kontrat kelimesiyle anlatılmak istenen tam olarak budur. Türeyen sınıflar, interface’in içerisinde yer alan tüm metodları implement edeceğine dair bir söz vermekte, sözleşme yapmaktadır. Aksi halde derleyici hata verecek, kodunuz çalışmayacaktır.

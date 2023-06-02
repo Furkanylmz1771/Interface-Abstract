@@ -1,0 +1,7 @@
+
+Abstract sınıflar,genellikle ortak özellikleri olan nesneleri tek bir çatı altında toplamak için kullanılır.
+
+
+Lunapark Çarpışan araba onregi
+
+Görevli o kırmızı düğmeye bastığında bizler sadece eğlencenin başlayacağını biliyoruz, görevli de on dakikalık bir seansa daha start vereceğini biliyor yalnızca. Düğmeye basıldığı anda elektrik devresindeki anahtarın kapanıp akımın başlayacağını ne biz ne de görevli aklının ucundan dahi geçirmiyor. İşte bu tam bir soyutlama örneği. Yalnızca input(düğmeye basmak) ve output(eğlencenin başlaması) değerleriyle ilgileniyoruz. Arka tarafta dönen teknik hadiseleri hiç düşünmeden bize sunulmuş bir düğmeyi kullanarak işimizi görüyoruz.
